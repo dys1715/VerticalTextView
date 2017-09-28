@@ -159,9 +159,9 @@ public class VerticalTextView extends View {
         boolean isBreak = false;
         for (String regular : regulars) {
             if (regular.equals(str)) {
-                paint.setColor(Color.RED);
-                canvas.drawCircle(mTextPosx, mTextPosy - mFontHeight / 4, 4, paint);
-                paint.setColor(Color.BLACK);
+//                paint.setColor(Color.RED);
+//                canvas.drawCircle(mTextPosx, mTextPosy - mFontHeight / 4, 4, paint);
+//                paint.setColor(Color.BLACK);
                 canvas.save();
                 canvas.rotate(90, mTextPosx, mTextPosy - mFontHeight / 4);
                 canvas.drawText(str, mTextPosx, mTextPosy, paint);
