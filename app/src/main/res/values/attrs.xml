@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--二维码扫描动画-->
     <declare-styleable name="vertical_text">
         <attr name="textSize" format="dimension"/>
         <attr name="text" format="string|reference"/>
